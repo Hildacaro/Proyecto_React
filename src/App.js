@@ -3,7 +3,7 @@ import Main from "./components/Main/Main";
 import Galeria from "./components/Galeria/Galeria";
 import Empresa from "./components/Empresa/Empresa";
 import Equipo from "./components/Equipo/Equipo";
-import Form from "./components/Form/Form";
+import FormValidation from './components/Form/FormValidations';
 import Footer from "./components/Footer/Footer";
 import Cookies from "./components/Cookies/Cookies";
 
@@ -15,7 +15,9 @@ function App() {
       <Galeria />
       <Empresa />
       <Equipo />
-      <Form />
+       <div className="container-form">
+         <FormValidation />
+      </div>
       <Footer />
       <Cookies />
     </div>
