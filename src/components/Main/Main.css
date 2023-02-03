@@ -1,0 +1,27 @@
+.bg-image {
+  background-image: url("img-main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-white {
+  margin-top: 400px;
+}
+
+h1.mb-3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.btn {
+  background: #cdf0ea !important;
+}
+
+span{
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+    color: rgba(205, 240, 234, 1);
+}
