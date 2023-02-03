@@ -13,7 +13,25 @@ function App() {
       <Navbar />
       <Main />
       <Galeria />
-      <Empresa />
+      <Empresa
+      titulo="Card title"
+      nombre="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."   
+      imagen="arbol"
+      descripccion="Last updated 3 mins ago"
+      />
+      <Empresa
+       titulo="Card title"
+       nombre="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."   
+       imagen="caracol"
+       descripccion="Last updated 3 mins ago"
+       />
+       <Empresa
+       titulo="Card title"
+       nombre="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."   
+       imagen="galeria"
+       descripccion="Last updated 3 mins ago"
+       />
+
       <Equipo />
       <Form />
       <Footer />
