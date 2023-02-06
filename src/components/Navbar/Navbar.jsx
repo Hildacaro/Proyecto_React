@@ -1,49 +1,86 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "./logo-navbar.png";
 import "./Navbar.css";
 
 //Navbar Ale
-function Navbar() {
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => setClick(false);
+
   return (
-    <>
-      <nav
-        id="navbar"
-        className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
-      >
-        <div className="container-fluid">
-          <a id="logo" className="navbar-brand"></a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-md-auto gap-2">
-              <li className="nav-item rounded">
-                <a className="nav-link active" aria-current="page">
-                  Inicio
-                </a>
-              </li>
-              <li className="nav-item rounded">
-                <a className="nav-link">Nuestras series</a>
-              </li>
-              <li className="nav-item rounded">
-                <a className="nav-link">Sobre nosotros</a>
-              </li>
-              <li className="nav-item rounded">
-                <a className="nav-link">Contacto</a>
-              </li>
-            </ul>
-          </div>
+    <div className="header">
+      <nav className="navbar">
+        <a href="/" className="logo">
+          <img src={logo} alt="logo" />
+        </a>
+        <div className="hamburger" onClick={handleClick}>
+          {click ? (
+            <FaTimes size={30} style={{ color: "#ffffff" }} />
+          ) : (
+            <FaBars size={30} style={{ color: "#ffffff" }} />
+          )}
         </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link
+              to="galeria"
+              href="galeria"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Galería
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="about"
+              href="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Empresa
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="testimonials"
+              href="testimonials"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Equipo
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="demo"
+              href="demo"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Contacto
+            </Link>
+          </li>
+        </ul>
       </nav>
-    </>
+    </div>
   );
-}
+};
 
 export default Navbar;
