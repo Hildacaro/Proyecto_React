@@ -4,9 +4,9 @@
  ★ Hemos utilizado
 </h4> 
 <p>
- <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
  </p>
  <h4>
  ★ Herramientas
@@ -17,12 +17,14 @@
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
  </p>
 
+## Contexto del proyecto
+
 Una agencia de publicidad está probando a diferentes grupos de personas para seleccionar un grupo de trabajo que forme parte de su plantilla. Esta agencia presenta unos requisitos y quiere probar hasta dónde son capaces de llegar los grupos preseleccionados.
 Se va a trabajar según lo acordado con el equipo una extensión de la agencia de publicidad que se dedica especialmente a promocionar arte, tanto de pequeños como grandes artistas.
 
 ## Instalando
 
-Introducción rápida de la configuración mínima.
+Introducción rápida de la configuración mínima ✔︎
 
 ```shell
 comandos aquí! 👇🏽
@@ -56,7 +58,7 @@ Bbibliotecas principales y frameworks utilizados.
 - 💣 React
 - 💅🏾 Boostrap
 
-### Requisitos
+### Requisitos minimos
 Hacer una aplicación con React en entorno node.
 Utilizar un librería de diseño.
 Cargar datos de un JSON.
@@ -76,6 +78,6 @@ API utilizada
 
 # ¿Ahora que?
 
-Utilizar un sistema de test.
-Evitar SPAM en los formularios, necesitamos una prueba de Turin para diferenciar que es una máquina y que no lo es. 
-¿Entrenaremos a una inteligencia artificial?
+Queremos implementar un sistema de test.
+Además evitar SPAM en los formularios, con una prueba de Turin para diferenciar que es una máquina y que no lo es.
+¿Entrenaremos a una inteligencia artificial? 👀
