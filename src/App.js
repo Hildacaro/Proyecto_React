@@ -7,6 +7,7 @@ import FormValidation from './components/Form/FormValidations';
 import Footer from "./components/Footer/Footer";
 import Cookies from "./components/Cookies/Cookies";
 
+
 function App() {
   return (
     <div className="App">
@@ -15,9 +16,7 @@ function App() {
       <Galeria />
       <Empresa />
       <Equipo />
-       <div className="container-form">
-         <FormValidation />
-      </div>
+      <FormValidation />
       <Footer />
       <Cookies />
     </div>
