@@ -10,7 +10,9 @@
     width: 50px;
     height: 50px;
     background-size: contain;}
-   
-.btnReact{ background:#CDF0EA !important;    box-shadow: 0 4px 9px -4px #a1d3d2 !important;}
-.btnReact:hover{ background:#334A6C !important;     box-shadow: 0 4px 9px -4px #a1d3d2 !important;}
+   .modal-body p{text-align: center;}
+.btnReact{ background:#A9DDDC !important;    box-shadow: 0 4px 9px -4px #a1d3d2 !important;}
+.btnReact:hover{ background:#79CAC9 !important;     box-shadow: 0 4px 9px -4px #a1d3d2 !important;}
+
+
 
