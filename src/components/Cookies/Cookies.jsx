@@ -35,11 +35,13 @@ function Cookies() {
               ></MDBBtn>
             </MDBModalHeader>
             <MDBModalBody>
-            <img src={Cooki} alt="logo" className="cookieImg" /><p>Las cookies de Ogilvy son caseras <br></br>
-              y cocinadas de forma artesanal<br></br> para darte una dulce bienvenida<br></br> 
-              cada vez que nos visitas<br></br>
+            <img src={Cooki} alt="logo" className="cookieImg" /><p>Las cookies de Ogilvy son caseras
+              y cocinadas de forma artesanal para darte una dulce bienvenida
+              cada vez que nos visitas
 
-Si sigues navegando aceptas <br></br>el uso de cookies.</p>
+Si sigues navegando aceptas el uso de cookies.</p>
+
+<p>El Usuario puede deshabilitar, rechazar y eliminar las cookies —total o parcialmente— instaladas en su dispositivo mediante la configuración de su navegador (entre los que se encuentran, por ejemplo, Chrome, Firefox, Safari, Explorer). En este sentido, los procedimientos para rechazar y eliminar las cookies pueden diferir de un navegador de Internet a otro.</p>
 
 </MDBModalBody>
             <MDBModalFooter>
