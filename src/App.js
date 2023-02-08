@@ -4,6 +4,7 @@ import Galeria from "./components/Galeria/Galeria";
 import Empresa from "./components/Empresa/Empresa";
 import Equipo from "./components/Equipo/Equipo";
 import Form from "./components/Form/Form";
+import Maps from "./components/Maps/Maps";
 import Footer from "./components/Footer/Footer";
 import Cookies from "./components/Cookies/Cookies";
 
@@ -16,6 +17,7 @@ function App() {
       <Empresa />
       <Equipo />
       <Form />
+      <Maps />
       <Footer />
       <Cookies />
     </div>

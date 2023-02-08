@@ -77,6 +77,19 @@ const Navbar = () => {
               Contacto
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              to="mapa"
+              href="mapa"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Mapa
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
