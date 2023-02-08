@@ -5,7 +5,6 @@ import './Empresa.css'
 
 function Empresa(props) {
 return (
-  <>
   
   <div class="card">
   <div class="row g-0">
@@ -18,11 +17,11 @@ return (
         <h5 class="card-title">{props.titulo}</h5>
         <p class="card-text">{props.nombre}</p>
         <p class="card-text">{props.descripccion}<small class="text-muted"></small></p>
+        <button type="button" class="boton">Saber mas</button>
       </div>
     </div>
   </div>
 </div> 
-</>
 )
 }
 

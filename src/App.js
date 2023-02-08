@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
 import Galeria from "./components/Galeria/Galeria";
-import Empresa from "./components/Empresa/Empresa";
+// import Empresa from "./components/Empresa/Empresa";
 import Equipo from "./components/Equipo/Equipo";
 import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 import Cookies from "./components/Cookies/Cookies";
+import EmpresaProps from "./components/Empresa/empresa-props";
 
 function App() {
   return (
@@ -13,25 +14,7 @@ function App() {
       <Navbar />
       <Main />
       <Galeria />
-      <Empresa
-      titulo="Card title"
-      nombre="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."   
-      imagen="arbol"
-      descripccion="Last updated 3 mins ago"
-      />
-      <Empresa
-       titulo="Card title"
-       nombre="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."   
-       imagen="caracol"
-       descripccion="Last updated 3 mins ago"
-       />
-       <Empresa
-       titulo="Card title"
-       nombre="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."   
-       imagen="galeria"
-       descripccion="Last updated 3 mins ago"
-       />
-
+      <EmpresaProps/>
       <Equipo />
       <Form />
       <Footer />
