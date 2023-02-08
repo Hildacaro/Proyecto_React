@@ -7,6 +7,7 @@ import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 import Cookies from "./components/Cookies/Cookies";
 
+
 function App() {
   return (
     <div className="App">
