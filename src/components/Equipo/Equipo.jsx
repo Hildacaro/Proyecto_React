@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "./Card";
-
-
 import mey from "./images/mey.jpg";
 import auri from './images/auri.jpg'
 import ale from "./images/ale.jpg"
@@ -69,16 +67,3 @@ function Equipo() {
 }
 
 export default Equipo;
-import React from 'react';
-import './Equipo.css';
-
-//Equipo Mica
-function Equipo() {
-  return (
-    <>
-    <div>Equipo</div>
-    </>
-  )
-}
-
-export default Equipo

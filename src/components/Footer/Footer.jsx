@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import Logo from './logonavbar.png';
 import { MDBFooter } from 'mdb-react-ui-kit';
-import { MDBContainer,MDBCol,MDBRow,} from 'mdb-react-ui-kit';
+import { MDBContainer, MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import { MDBIcon } from 'mdb-react-ui-kit';
 
 
