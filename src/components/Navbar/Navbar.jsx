@@ -27,19 +27,6 @@ const Navbar = () => {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link
-              to="galeria"
-              href="galeria"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-              onClick={closeMenu}
-            >
-              Galería
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
               to="empresa"
               href="empresa"
               spy={true}
@@ -49,6 +36,19 @@ const Navbar = () => {
               onClick={closeMenu}
             >
               Empresa
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="galeria"
+              href="galeria"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Galería
             </Link>
           </li>
           <li className="nav-item">

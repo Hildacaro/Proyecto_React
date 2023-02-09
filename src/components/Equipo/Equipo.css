@@ -24,11 +24,11 @@
   overflow: hidden;
 }
 
-.card-img-top {
+.card-img-top-equipo {
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 }
 
-.card-img-top:hover {
+.card-img-top-equipo:hover {
   transform: scale(1.8);
 }
