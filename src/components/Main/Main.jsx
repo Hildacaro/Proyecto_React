@@ -10,7 +10,7 @@ function Main() {
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3">
-                Recursos para ayudarte a promover <br /> y vender tu <span> Arte</span>
+                Recursos para ayudarte a promover <br /> y vender tu <span id="text-main"> Arte</span>
               </h1>
               <a id="button-main" className="btn btn-light btn-lg" role="button">
                 Saber más

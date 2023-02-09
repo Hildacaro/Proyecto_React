@@ -20,7 +20,7 @@ h1.mb-3 {
   background: #cdf0ea !important;
 }
 
-span{
+#text-main{
     font-family: 'Allura', cursive;
     font-size: 70px;
     color: rgba(205, 240, 234, 1);
