@@ -28,7 +28,7 @@ function Galeria() {
 
         <Carousel.Caption>
           <h3 class="carousel-caption d-none d-md-block">
-            <a id="carrousel-link" href="" class="link4">
+            <a id="carrousel-link" href="https://www.bosshunting.com.au/lifestyle/design/paul-milinski-vaulter/" class="link4">
               Paul Malinski
             </a>
           </h3>
