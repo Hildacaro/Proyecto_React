@@ -14,33 +14,30 @@ function Footer() {
             <MDBRow>
               <MDBCol lg="6" md="12" className="mb-4 mb-md-0">
                 <img src={Logo} alt="logo" className="logoFooter" />
-                <img src="" alt="" srcset="" />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-                  atque ea quis .
+                <div>
                   <MDBIcon fab icon="amazon" size="2x" />
                   <MDBIcon fab icon="twitter" size="2x" />
                   <MDBIcon fab icon="instagram" size="2x" />
                   <MDBIcon fab icon="facebook" size="2x" />
-                </p>
+                  </div>
               </MDBCol>
 
               <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-                <h5 className="text-uppercase">Links</h5>
+              
 
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="#!" className="text-white">
+                    <a href="#empresa" className="text-white">
                       Empresa
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white">
+                    <a href="#equipo" className="text-white">
                       Nosotras
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white">
+                    <a href="#galeria" className="text-white">
                       Expo
                     </a>
                   </li>
@@ -53,7 +50,7 @@ function Footer() {
               </MDBCol>
 
               <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-                <h5 className="text-uppercase mb-0">Links</h5>
+                
 
                 <ul className="list-unstyled">
                   <li>
