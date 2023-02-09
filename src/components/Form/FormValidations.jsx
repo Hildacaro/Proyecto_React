@@ -34,14 +34,14 @@ const FormValidation = () => {
                 type="text"
                 {...register("name", {
                   required: true,
-                  maxLength: 8,
+                  maxLength: 12,
                 })}
               />
               {errors.name?.type === "required" && (
                 <small className="fail">El campo no puede estar vacío</small>
               )}
               {errors.name?.type === "maxLength" && (
-                <small className="fail">El máximo de caracateres es 8</small>
+                <small className="fail">El máximo de caracteres es 12</small>
               )}
             </div>
 
