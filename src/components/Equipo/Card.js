@@ -5,13 +5,13 @@ import "./Equipo.css";
 
 function Card({ imageSource, title, text }) {
   return (
-    <div className="card text-center  mb-3 animate__animated animate__fadeInUp">
+    <div className="card-equipo text-center  mb-3 animate__animated animate__fadeInUp">
       <div className="overflow">
         <img src={imageSource} alt="a wallpaper" className="card-img-top" />
       </div>
-      <div className="card-body text-light">
-        <h4 className="card-title">{title}</h4>
-        <p className="card-text text-secondary"> {text}</p>
+      <div className="card-body-equipo text-light">
+        <h4 className="card-title-equipo">{title}</h4>
+        <p className="card-text-equipo text-secondary"> {text}</p>
       </div>
     </div>
   );

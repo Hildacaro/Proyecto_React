@@ -12,7 +12,7 @@ function Main() {
               <h1 className="mb-3">
                 Recursos para ayudarte a promover <br /> y vender tu <span> Arte</span>
               </h1>
-              <a className="btn btn-light btn-lg" role="button">
+              <a id="button-main" className="btn btn-light btn-lg" role="button">
                 Saber más
               </a>
             </div>

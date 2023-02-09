@@ -31,7 +31,7 @@ const Navbar = () => {
               href="galeria"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-50}
               duration={500}
               onClick={closeMenu}
             >
@@ -40,11 +40,11 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="about"
-              href="about"
+              to="empresa"
+              href="empresa"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-50}
               duration={500}
               onClick={closeMenu}
             >
@@ -53,8 +53,8 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="testimonials"
-              href="testimonials"
+              to="equipo"
+              href="equipo"
               spy={true}
               smooth={true}
               offset={-100}
@@ -66,11 +66,11 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="demo"
-              href="demo"
+              to="form"
+              href="form"
               spy={true}
               smooth={true}
-              offset={-150}
+              offset={-50}
               duration={500}
               onClick={closeMenu}
             >

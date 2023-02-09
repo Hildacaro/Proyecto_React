@@ -1,26 +1,23 @@
-.container{
+.container {
   margin-top: 50px;
 }
-.card{
-background-color:#1D3A3A !important;
-border: #1D3A3A 2px solid !important;
-
+.card-equipo {
+  background-color: #1d3a3a !important;
+  border: #1d3a3a 2px solid !important;
 }
 
-
-.card:hover {
+.card-equipo:hover {
   box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
   transition: all 0.7s linear;
 }
 
-.card-body {
+.card-body-equipo {
   padding: 2rem 0 !important;
 }
 
-.card-text {
+.card-text-equipo {
   padding: 0.3rem 1rem;
   font-size: 1rem;
-  
 }
 
 .overflow {

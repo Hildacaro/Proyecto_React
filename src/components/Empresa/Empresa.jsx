@@ -6,7 +6,7 @@ import './Empresa.css'
 function Empresa(props) {
 return (
   
-  <div class="card">
+  <div class="card-empresa">
   <div class="row g-0">
     <div class="col-md-4">
       <img src={require(`../Empresa/empresa-${props.imagen}.jpg`)} className="img-fluid rounded-start"
@@ -17,7 +17,7 @@ return (
         <h5 class="card-title">{props.titulo}</h5>
         <p class="card-text">{props.nombre}</p>
         <p class="card-text">{props.descripccion}<small class="text-muted"></small></p>
-        <button type="button" class="boton">Saber mas</button>
+        <button type="button" class="boton-empresa">Saber mas</button>
       </div>
     </div>
   </div>
