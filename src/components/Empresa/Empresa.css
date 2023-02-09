@@ -1,6 +1,8 @@
 .card-empresa {
+  background-color: white;
   margin: 5%;
-  box-shadow: 0px 4px #cdf0ea;
+  border-radius: 8px;
+  box-shadow: 2px 4px #cdf0ea;
 }
 #empresa {
   background-color: #f9f9f9;
@@ -12,4 +14,8 @@
   width: 180px;
   border-radius: 3px;
   border: none;
+}
+
+.boton-empresa:hover{
+  background-color: #bfe1db;
 }

@@ -264,7 +264,7 @@ input[type="radio"]:checked + .checkmark > span:before {
   }
 
   .form-section {
-    background-image: url("./img/photo-form.jpg");
+    background-image: url("../images/photo-form.jpg");
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,7 +294,7 @@ input[type="radio"]:checked + .checkmark > span:before {
   }
 
   .form-section {
-    background-image: url("./img/photo-form.jpg");
+    background-image: url("../images/photo-form.jpg");
     height: 100vh;
     background-size: 100% cover;
     background-repeat: no-repeat;

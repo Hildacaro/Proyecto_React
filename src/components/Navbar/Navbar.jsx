@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "./logo-navbar.png";
+import logo from "../images/logo-navbar.png";
 import "./Navbar.css";
 
 //Navbar Ale
@@ -14,9 +14,18 @@ const Navbar = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <a href="/" className="logo">
+        <Link
+          className="logo"
+          to="main"
+          href="main"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onClick={closeMenu}
+        >
           <img src={logo} alt="logo" />
-        </a>
+        </Link>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#ffffff" }} />
@@ -83,7 +92,7 @@ const Navbar = () => {
               href="mapa"
               spy={true}
               smooth={true}
-              offset={-150}
+              offset={-50}
               duration={500}
               onClick={closeMenu}
             >

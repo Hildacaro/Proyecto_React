@@ -10,7 +10,7 @@ import {
   MDBModalBody,
   MDBModalFooter,
 } from "mdb-react-ui-kit";
-import Cooki from "./cookie.png";
+import Cooki from "../images/cookie.png";
 
 //Cookies Belen
 function Cookies() {

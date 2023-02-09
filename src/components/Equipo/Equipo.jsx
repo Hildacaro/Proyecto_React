@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
-import mey from "./images/mey.jpg";
-import auri from './images/auri.jpg'
-import ale from "./images/ale.jpg"
-import belen from './images/belen.jpg'
-import hilda from './images/hilda.jpg'
-import mica  from './images/mica.jpg'
+import mey from "../images/mey.jpg";
+import auri from '../images/auri.jpg'
+import ale from "../images/ale.jpg"
+import belen from '../images/belen.jpg'
+import hilda from '../images/hilda.jpg'
+import mica  from '../images/mica.jpg'
 
 const cards = [
   {

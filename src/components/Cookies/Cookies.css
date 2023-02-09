@@ -1,18 +1,31 @@
-.cookieImg{
-    width:35%;
-    float:right;
+.cookieImg {
+  width: 35%;
+  float: right;
 }
-.modal-content{ background: #FDFDFD; width:800px;}
-.modal-dialog  .modal-content{ background: #FDFDFD !important;
-
+.modal-content {
+  background: #fdfdfd;
+  width: 800px;
 }
-.btn-cookie{ background-image: url(./cookies.png ) !important;
-    width: 50px;
-    height: 50px;
-    background-size: contain !important;}
-   .modal-body p{text-align: center;}
-.btnReact{ background:#A9DDDC !important;    box-shadow: 0 4px 9px -4px #a1d3d2 !important;}
-.btnReact:hover{ background:#79CAC9 !important;     box-shadow: 0 4px 9px -4px #a1d3d2 !important;}
-
-
-
+.modal-dialog .modal-content {
+  background: #fdfdfd !important;
+}
+.btn-cookie {
+  background-image: url(../images/cookies.png) !important;
+  width: 50px;
+  height: 50px;
+  background-size: contain !important;
+  position:fixed;
+	bottom:120px;
+	right:-20px;
+}
+.modal-body p {
+  text-align: center;
+}
+.btnReact {
+  background: #a9dddc !important;
+  box-shadow: 0 4px 9px -4px #a1d3d2 !important;
+}
+.btnReact:hover {
+  background: #79cac9 !important;
+  box-shadow: 0 4px 9px -4px #a1d3d2 !important;
+}

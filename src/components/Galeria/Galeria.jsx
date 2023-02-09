@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./Galeria.css";
-import imagen1 from "./img/dan-farrell1.jpg";
-import imagen2 from "./img/PaulMalinski.jpg";
-import imagen3 from "./img/RobertoFerri3.jpg";
+import imagen1 from "../images/dan-farrell1.jpg";
+import imagen2 from "../images/PaulMalinski.jpg";
+import imagen3 from "../images/RobertoFerri3.jpg";
 
 //Galeria Mey
 function Galeria() {

@@ -1,8 +1,15 @@
 div.map {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: white;
+  flex-direction: column;
+}
+
+#text-map{
+  font-family: 'Allura', cursive;
+    font-size: 60px;
+    color: #79cac9;
 }
