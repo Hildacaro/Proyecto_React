@@ -28,7 +28,7 @@ function Galeria() {
 
         <Carousel.Caption>
           <h3 className="carousel-caption d-none d-md-block">
-            <a id="carrousel-link" href="https://www.bosshunting.com.au/lifestyle/design/paul-milinski-vaulter/" class="link4">
+            <a id="carrousel-link" href="https://www.bosshunting.com.au/lifestyle/design/paul-milinski-vaulter/" className="link4">
               Paul Malinski
             </a>
           </h3>
@@ -40,7 +40,7 @@ function Galeria() {
 
         <Carousel.Caption>
           <h3 className="carousel-caption d-none d-md-block">
-            <a id="carrousel-link" href="https://www.robertoferri.net/" class="link4">
+            <a id="carrousel-link" href="https://www.robertoferri.net/" className="link4">
               Roberto Ferri
             </a>
           </h3>
