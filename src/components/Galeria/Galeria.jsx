@@ -12,10 +12,10 @@ function Galeria() {
       <Carousel.Item>
         <img className="d-block w-100" src={imagen1} alt="Dan Farrell" />
         <Carousel.Caption>
-          <h3 class="carousel-caption d-none d-md-block">
+          <h3 className="carousel-caption d-none d-md-block">
             <a id="carrousel-link"
               href="https://www.askart.com/artist/Dan_Farrell/11261928/Dan_Farrell.aspx"
-              class="link4"
+              className="link4"
             >
               Dan Farrell
             </a>
@@ -27,7 +27,7 @@ function Galeria() {
         <img className="d-block w-100" src={imagen2} alt="Paul malinski" />
 
         <Carousel.Caption>
-          <h3 class="carousel-caption d-none d-md-block">
+          <h3 className="carousel-caption d-none d-md-block">
             <a id="carrousel-link" href="https://www.bosshunting.com.au/lifestyle/design/paul-milinski-vaulter/" class="link4">
               Paul Malinski
             </a>
@@ -39,7 +39,7 @@ function Galeria() {
         <img className="d-block w-100" src={imagen3} alt="Roberto Ferri" />
 
         <Carousel.Caption>
-          <h3 class="carousel-caption d-none d-md-block">
+          <h3 className="carousel-caption d-none d-md-block">
             <a id="carrousel-link" href="https://www.robertoferri.net/" class="link4">
               Roberto Ferri
             </a>
