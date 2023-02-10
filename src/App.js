@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
 import Galeria from "./components/Galeria/Galeria";
-// import Empresa from "./components/Empresa/Empresa";
 import Equipo from "./components/Equipo/Equipo";
 import Maps from "./components/Maps/Maps";
 import FormValidation from './components/Form/FormValidations';
